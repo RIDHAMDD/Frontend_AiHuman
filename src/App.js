@@ -14,7 +14,7 @@ export default function App() {
     setResult(null);
 
     try {
-      const response = await axios.post("https://ai-hum-detect.vercel.app/predict", {
+      const response = await axios.post("https://rotten-buses-wash.loca.lt/predict", {
         model_name: "Multinomial Naive Bayes", // Fixed model name
         content: text,
       });
