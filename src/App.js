@@ -14,7 +14,7 @@ export default function App() {
     setResult(null);
 
     try {
-      const response = await axios.post("https://rotten-buses-wash.loca.lt/predict", {
+      const response = await axios.post("https://social-trains-rest.loca.lt/predict", {
         model_name: "Multinomial Naive Bayes", // Fixed model name
         content: text,
       });
